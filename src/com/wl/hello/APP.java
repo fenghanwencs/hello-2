@@ -9,7 +9,11 @@ public class APP {
 
 	public static void main(String[] args) {
 		
-		System.out.println("Hello GitHub!");
+		sayHello("github");
+	}
+
+	private static void sayHello(String msg) {
+		System.out.println("Hello " + msg);
 	}
 
 }
