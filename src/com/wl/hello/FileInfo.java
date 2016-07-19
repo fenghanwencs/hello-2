@@ -9,6 +9,9 @@ public class FileInfo {
 
 	private String file;
 	private long length;
+	
+	public FileInfo() {
+	}
 
 	/**
 	 * @param file

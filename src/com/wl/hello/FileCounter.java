@@ -18,6 +18,7 @@ public class FileCounter {
 	 * @return
 	 */
 	public static FileInfo getInfo(File file) {
-		return null;
+		FileInfo info = new FileInfo();
+		return info;
 	}
 }
